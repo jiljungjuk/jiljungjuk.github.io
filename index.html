@@ -2,7 +2,7 @@
 <script type="text/javascript">
 document.open();
 document.write('--------------------<br>');
-document.write('yt.leanback::schema-version', localStorage['yt.leanback::schema-version'], '<br>');
+document.write('yt.leanback::schema-version', localStorage.getItem['yt.leanback::schema-version'], '<br>');
 for (var key in localStorage) {
   document.write(key, localStorage.getItem[key], '<br>');
 }
